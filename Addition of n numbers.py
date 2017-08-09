@@ -1,8 +1,6 @@
-a=input("Enter the number of items")
+a=input("Enter the n ")
 b=0
-print  "Enter the digits"
-for i in range (a):
-    c=input()
-    b=b+c
-print b
+for i in range (a+1):
+    b=b+i
+print "Sum of n natural numbers is ",b
     
